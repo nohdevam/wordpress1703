@@ -1,0 +1,39 @@
+﻿
+			/*
+			 Theme Name:   newtheme Child
+			 Theme URI:    http://example.com/newtheme-child/
+			 Description:  newtheme Child Theme
+			 Author:       John Doe
+			 Author URI:   http://example.com
+			 Template:     twentyseventeen
+			 Version:      1.0.0
+			 License:      GNU General Public License v2 or later
+			 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+			 Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+			 Text Domain:  newtheme-child
+			*/
+			/* Le code ci-dessus permet de déclarer ce thème comme étant enfant.*/
+
+			body:not(.title-tagline-hidden) .site-branding-text{
+				width: 100%;
+			 
+			display: flex;
+				/* Determine un sens principal horizontal */
+				flex-direction: row;
+				/* Alignement dans le sens principal */
+				justify-content: space-between;}
+
+			h1{ color: green; }
+
+/* .site-info {display: none} */
+
+			footer#colophon .menu-pied-de-page-container ul {
+				list-style: none;
+				display: flex;
+				justify-content: center;
+			}
+			footer#colophon .menu-pied-de-page-container ul li {
+				margin: 0 15px;
+			}
+			
+	
